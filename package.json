@@ -1,0 +1,40 @@
+{
+  "name": "06-ignite-call",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
+    "@ignite-ui/react": "^2.2.4",
+    "@prisma/client": "^5.4.2",
+    "axios": "^1.5.1",
+    "dayjs": "^1.11.10",
+    "googleapis": "^128.0.0",
+    "next": "13.5.4",
+    "next-auth": "^4.23.2",
+    "next-seo": "^6.4.0",
+    "nookies": "^2.5.2",
+    "phosphor-react": "^1.4.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.47.0",
+    "react-query": "^3.39.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/cookie": "^0.5.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "prisma": "^5.4.2",
+    "typescript": "^5"
+  }
+}
